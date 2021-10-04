@@ -11,3 +11,5 @@ timeToLive = 1.5 * room_speed * global.enemyTimeToLiveMultiplier;
 
 deadHitSpeed = 25
 deadHitRotationSpeed = 25
+
+scoreValue = 100;

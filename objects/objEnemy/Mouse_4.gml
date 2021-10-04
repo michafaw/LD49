@@ -11,5 +11,8 @@ if (state != "dead") {
 	scrFlingEnemyInstance(self);
 	
 	scrBreakTileAtXY(x, y);
+	global.score += scoreValue;
+	if (global.highScore < global.score)
+		global.highScore = global.score
 }
 

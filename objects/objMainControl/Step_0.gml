@@ -21,7 +21,7 @@ if (state == "normal") {
 		_shouldCreateNow = true;
 	if (_shouldCreateNow) {
 		var _randomTileNumber = irandom(array_length(tilePositionsX) - 1);
-		var _newEnemy = instance_create_layer(tilePositionsX[_randomTileNumber], tilePositionsY[_randomTileNumber], "Instances", objEnemy);
+		var _newEnemy = instance_create_layer(tilePositionsX[_randomTileNumber], tilePositionsY[_randomTileNumber] - 18, "Instances", objEnemy);
 		timeToEnemyCreation = 1.0 * room_speed * global.enemyCreationCooldownMultiplier;
 	}
 }

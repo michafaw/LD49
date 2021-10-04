@@ -10,6 +10,6 @@ if (state == "appearing") {
 	state = "normal"
 } else if (state == "disappearing") {
 	// End of disappearing animation
-	log("Enemy got away");
+	//log("Enemy got away");
 	instance_destroy();
 } 

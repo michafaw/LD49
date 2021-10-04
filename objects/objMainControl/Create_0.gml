@@ -21,7 +21,7 @@ var _tileID = 0;
 with (objTile) {
 	array_push(_tilePositionsX, x);
 	array_push(_tilePositionsY, y);
-	tileID = _tileID++;
+	self.tileID = _tileID++;
 }
 
 tilePositionsX = _tilePositionsX;
@@ -29,6 +29,6 @@ tilePositionsY = _tilePositionsY;
 
 // Debug output of tile position array
 for (var i = 0; i < array_length(tilePositionsX); i++) {
-	log("---Tile Positions---");
-	log("Tile #" + string(i) + ": (" + string(tilePositionsX[i]) + ", " + string(tilePositionsY[i]) + ")");
+	//log("---Tile Positions---");
+	//log("Tile #" + string(i) + ": (" + string(tilePositionsX[i]) + ", " + string(tilePositionsY[i]) + ")");
 }

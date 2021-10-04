@@ -59,7 +59,7 @@ function scrNumberOfBrokenTileLines() {
 			_totalBroken++;
 	}
 	
-	if (_totalBroken > 5)
+	if (_totalBroken > 10)
 		return 1;
 	//return 1;
 	return 0;

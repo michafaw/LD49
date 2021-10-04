@@ -9,7 +9,7 @@ tileBrokenSprite = sprTile1Broken;
 tileNormalCrashSprite = sprTile1Crash;
 tileBrokenCrashSprite = sprTile1BrokenCrash;
 
-tileID = noone; // Set/used by objMainControl
+// tileID (set by objMainControl, used for debugging purposes)
 
 
 // Initialization
